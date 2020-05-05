@@ -1,3 +1,5 @@
+<button (click)="addItem()">Adicionar</button>
+
 <ul>
   <li class="text" *ngFor="let item of items | async">
     {{item.description}}
@@ -7,3 +9,9 @@
 <input type="file" (change)="uploadFile($event)">
 <div>{{ uploadPercent | async }}</div>
 <a [href]="downloadURL | async">{{ downloadURL | async }}</a>
+
+<button (click)="cadastrar()">Cadastrar</button>
+<button (click)="autenticar()">Entrar</button>
+<button (click)="sair()">Sair</button>
+
+<p>Usuario: {{(usuario | async)?.email}}</p>
