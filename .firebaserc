@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "lojafirebase-8ce34": {
+      "hosting": {
+        "LojaFirebase": [
+          "lojafirebase-8ce34"
+        ]
+      }
+    }
+  }
+}
